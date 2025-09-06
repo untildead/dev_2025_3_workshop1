@@ -22,7 +22,6 @@ class Strings:
     def contar_palabras(self, texto):
         return len(texto.split())
     
-    #def palabras_mayus(self, texto):
     def palabras_mayus(self, texto):
         resultado = []
         for palabra in texto.split(" "):
@@ -31,7 +30,6 @@ class Strings:
             else:
                 resultado.append("")
         return " ".join(resultado)
-       # return "   ".join(p.capitalize() for p in texto.split())
 
 
     def eliminar_espacios_duplicados(self, texto):
